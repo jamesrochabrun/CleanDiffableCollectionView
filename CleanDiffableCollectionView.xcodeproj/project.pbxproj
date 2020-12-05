@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FB187C025015F8500F000E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187BF25015F8500F000E1 /* AppDelegate.swift */; };
+		1FB187C225015F8500F000E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187C125015F8500F000E1 /* SceneDelegate.swift */; };
+		1FB187C425015F8500F000E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187C325015F8500F000E1 /* ViewController.swift */; };
+		1FB187C725015F8500F000E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB187C525015F8500F000E1 /* Main.storyboard */; };
+		1FB187C925015F8900F000E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB187C825015F8900F000E1 /* Assets.xcassets */; };
+		1FB187CC25015F8900F000E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB187CA25015F8900F000E1 /* LaunchScreen.storyboard */; };
+		1FB187D725015F8900F000E1 /* CleanDiffableCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187D625015F8900F000E1 /* CleanDiffableCollectionViewTests.swift */; };
+		1FB187E225015F8900F000E1 /* CleanDiffableCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187E125015F8900F000E1 /* CleanDiffableCollectionViewUITests.swift */; };
+		1FB187F025015F9500F000E1 /* BaseXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187EF25015F9500F000E1 /* BaseXibView.swift */; };
+		1FB187F225015FA000F000E1 /* GenericTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187F125015FA000F000E1 /* GenericTableViewCell.swift */; };
+		1FB187F425015FAC00F000E1 /* GenericCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187F325015FAC00F000E1 /* GenericCollectionViewCell.swift */; };
+		1FB187F625015FB400F000E1 /* CompositionalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187F525015FB400F000E1 /* CompositionalLayout.swift */; };
+		1FB187FB2501606700F000E1 /* TOMDiffableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187FA2501606700F000E1 /* TOMDiffableCollectionView.swift */; };
+		1FB187FD2501608300F000E1 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187FC2501608300F000E1 /* CollectionReusableView.swift */; };
+		1FB187FF250160A300F000E1 /* TOMContactCardActionableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB187FE250160A300F000E1 /* TOMContactCardActionableView.swift */; };
+		1FB18801250160CE00F000E1 /* TOMContactCardActionableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB18800250160CE00F000E1 /* TOMContactCardActionableView.xib */; };
+		1FB18803250160ED00F000E1 /* TOMCouponBrandTitleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB18802250160ED00F000E1 /* TOMCouponBrandTitleHeaderView.xib */; };
+		1FB188062501617500F000E1 /* TOMMultiColumnCouponViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB188052501617500F000E1 /* TOMMultiColumnCouponViewModel.swift */; };
+		1FB188082501624C00F000E1 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB188072501624C00F000E1 /* ProductCollectionViewCell.swift */; };
+		1FB1880A250162CE00F000E1 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB18809250162CE00F000E1 /* ProductCollectionViewCell.xib */; };
+		1FB1880C250164E400F000E1 /* CollectionReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1880B250164E400F000E1 /* CollectionReusable.swift */; };
+		1FB1880E2501696A00F000E1 /* TOMCouponBrandTitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1880D2501696A00F000E1 /* TOMCouponBrandTitleHeaderView.swift */; };
+		1FB18810250169A100F000E1 /* TOMCouponCollectionViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1880F250169A100F000E1 /* TOMCouponCollectionViewFooter.swift */; };
+		1FB1881225016A2400F000E1 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1881125016A2400F000E1 /* Layout.swift */; };
+		1FB1881425016B6C00F000E1 /* TOMCouponCollectionViewFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB1881325016B6C00F000E1 /* TOMCouponCollectionViewFooter.xib */; };
+		1FB1881625016E2400F000E1 /* TOMCollectionViewContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1881525016E2400F000E1 /* TOMCollectionViewContainerTableViewCell.swift */; };
+		1FB1881A2501706400F000E1 /* TOMCollectionViewContainerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB188192501706400F000E1 /* TOMCollectionViewContainerTableViewCell.xib */; };
+		1FB1881C2501724000F000E1 /* TOMDiffableCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB1881B2501724000F000E1 /* TOMDiffableCollectionView.xib */; };
+		1FB1881F25017A1E00F000E1 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1881E25017A1E00F000E1 /* SplitViewController.swift */; };
+		1FB1882125017B4200F000E1 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1882025017B4200F000E1 /* UIStoryboard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB187D325015F8900F000E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB187B425015F8500F000E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB187BB25015F8500F000E1;
+			remoteInfo = CleanDiffableCollectionView;
+		};
+		1FB187DE25015F8900F000E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB187B425015F8500F000E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB187BB25015F8500F000E1;
+			remoteInfo = CleanDiffableCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FB187BC25015F8500F000E1 /* CleanDiffableCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanDiffableCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB187BF25015F8500F000E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FB187C125015F8500F000E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FB187C325015F8500F000E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FB187C625015F8500F000E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FB187C825015F8900F000E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FB187CB25015F8900F000E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FB187CD25015F8900F000E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB187D225015F8900F000E1 /* CleanDiffableCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanDiffableCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB187D625015F8900F000E1 /* CleanDiffableCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanDiffableCollectionViewTests.swift; sourceTree = "<group>"; };
+		1FB187D825015F8900F000E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB187DD25015F8900F000E1 /* CleanDiffableCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanDiffableCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB187E125015F8900F000E1 /* CleanDiffableCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanDiffableCollectionViewUITests.swift; sourceTree = "<group>"; };
+		1FB187E325015F8900F000E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB187EF25015F9500F000E1 /* BaseXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibView.swift; sourceTree = "<group>"; };
+		1FB187F125015FA000F000E1 /* GenericTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewCell.swift; sourceTree = "<group>"; };
+		1FB187F325015FAC00F000E1 /* GenericCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FB187F525015FB400F000E1 /* CompositionalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayout.swift; sourceTree = "<group>"; };
+		1FB187FA2501606700F000E1 /* TOMDiffableCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOMDiffableCollectionView.swift; sourceTree = "<group>"; };
+		1FB187FC2501608300F000E1 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		1FB187FE250160A300F000E1 /* TOMContactCardActionableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOMContactCardActionableView.swift; sourceTree = "<group>"; };
+		1FB18800250160CE00F000E1 /* TOMContactCardActionableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TOMContactCardActionableView.xib; sourceTree = "<group>"; };
+		1FB18802250160ED00F000E1 /* TOMCouponBrandTitleHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TOMCouponBrandTitleHeaderView.xib; sourceTree = "<group>"; };
+		1FB188052501617500F000E1 /* TOMMultiColumnCouponViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOMMultiColumnCouponViewModel.swift; sourceTree = "<group>"; };
+		1FB188072501624C00F000E1 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FB18809250162CE00F000E1 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		1FB1880B250164E400F000E1 /* CollectionReusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusable.swift; sourceTree = "<group>"; };
+		1FB1880D2501696A00F000E1 /* TOMCouponBrandTitleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOMCouponBrandTitleHeaderView.swift; sourceTree = "<group>"; };
+		1FB1880F250169A100F000E1 /* TOMCouponCollectionViewFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOMCouponCollectionViewFooter.swift; sourceTree = "<group>"; };
+		1FB1881125016A2400F000E1 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		1FB1881325016B6C00F000E1 /* TOMCouponCollectionViewFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TOMCouponCollectionViewFooter.xib; sourceTree = "<group>"; };
+		1FB1881525016E2400F000E1 /* TOMCollectionViewContainerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOMCollectionViewContainerTableViewCell.swift; sourceTree = "<group>"; };
+		1FB188192501706400F000E1 /* TOMCollectionViewContainerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOMCollectionViewContainerTableViewCell.xib; sourceTree = "<group>"; };
+		1FB1881B2501724000F000E1 /* TOMDiffableCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TOMDiffableCollectionView.xib; sourceTree = "<group>"; };
+		1FB1881E25017A1E00F000E1 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		1FB1882025017B4200F000E1 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FB187B925015F8500F000E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB187CF25015F8900F000E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB187DA25015F8900F000E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB187B325015F8500F000E1 = {
+			isa = PBXGroup;
+			children = (
+				1FB1881325016B6C00F000E1 /* TOMCouponCollectionViewFooter.xib */,
+				1FB187BE25015F8500F000E1 /* CleanDiffableCollectionView */,
+				1FB187D525015F8900F000E1 /* CleanDiffableCollectionViewTests */,
+				1FB187E025015F8900F000E1 /* CleanDiffableCollectionViewUITests */,
+				1FB187BD25015F8500F000E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FB187BD25015F8500F000E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FB187BC25015F8500F000E1 /* CleanDiffableCollectionView.app */,
+				1FB187D225015F8900F000E1 /* CleanDiffableCollectionViewTests.xctest */,
+				1FB187DD25015F8900F000E1 /* CleanDiffableCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FB187BE25015F8500F000E1 /* CleanDiffableCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1FB1881D25017A1300F000E1 /* SplitView */,
+				1FB188042501616900F000E1 /* Models */,
+				1FB187F92501605200F000E1 /* Views */,
+				1FB187BF25015F8500F000E1 /* AppDelegate.swift */,
+				1FB187C125015F8500F000E1 /* SceneDelegate.swift */,
+				1FB187C325015F8500F000E1 /* ViewController.swift */,
+				1FB187C525015F8500F000E1 /* Main.storyboard */,
+				1FB187C825015F8900F000E1 /* Assets.xcassets */,
+				1FB187CA25015F8900F000E1 /* LaunchScreen.storyboard */,
+				1FB187CD25015F8900F000E1 /* Info.plist */,
+				1FB187EF25015F9500F000E1 /* BaseXibView.swift */,
+				1FB187F125015FA000F000E1 /* GenericTableViewCell.swift */,
+				1FB187F325015FAC00F000E1 /* GenericCollectionViewCell.swift */,
+				1FB187F525015FB400F000E1 /* CompositionalLayout.swift */,
+				1FB1880B250164E400F000E1 /* CollectionReusable.swift */,
+			);
+			path = CleanDiffableCollectionView;
+			sourceTree = "<group>";
+		};
+		1FB187D525015F8900F000E1 /* CleanDiffableCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB187D625015F8900F000E1 /* CleanDiffableCollectionViewTests.swift */,
+				1FB187D825015F8900F000E1 /* Info.plist */,
+			);
+			path = CleanDiffableCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		1FB187E025015F8900F000E1 /* CleanDiffableCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB187E125015F8900F000E1 /* CleanDiffableCollectionViewUITests.swift */,
+				1FB187E325015F8900F000E1 /* Info.plist */,
+			);
+			path = CleanDiffableCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		1FB187F92501605200F000E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FB187FA2501606700F000E1 /* TOMDiffableCollectionView.swift */,
+				1FB187FC2501608300F000E1 /* CollectionReusableView.swift */,
+				1FB187FE250160A300F000E1 /* TOMContactCardActionableView.swift */,
+				1FB18800250160CE00F000E1 /* TOMContactCardActionableView.xib */,
+				1FB18802250160ED00F000E1 /* TOMCouponBrandTitleHeaderView.xib */,
+				1FB188072501624C00F000E1 /* ProductCollectionViewCell.swift */,
+				1FB18809250162CE00F000E1 /* ProductCollectionViewCell.xib */,
+				1FB1880D2501696A00F000E1 /* TOMCouponBrandTitleHeaderView.swift */,
+				1FB1880F250169A100F000E1 /* TOMCouponCollectionViewFooter.swift */,
+				1FB188192501706400F000E1 /* TOMCollectionViewContainerTableViewCell.xib */,
+				1FB1881525016E2400F000E1 /* TOMCollectionViewContainerTableViewCell.swift */,
+				1FB1881B2501724000F000E1 /* TOMDiffableCollectionView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FB188042501616900F000E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FB188052501617500F000E1 /* TOMMultiColumnCouponViewModel.swift */,
+				1FB1881125016A2400F000E1 /* Layout.swift */,
+				1FB1882025017B4200F000E1 /* UIStoryboard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1FB1881D25017A1300F000E1 /* SplitView */ = {
+			isa = PBXGroup;
+			children = (
+				1FB1881E25017A1E00F000E1 /* SplitViewController.swift */,
+			);
+			path = SplitView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FB187BB25015F8500F000E1 /* CleanDiffableCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB187E625015F8900F000E1 /* Build configuration list for PBXNativeTarget "CleanDiffableCollectionView" */;
+			buildPhases = (
+				1FB187B825015F8500F000E1 /* Sources */,
+				1FB187B925015F8500F000E1 /* Frameworks */,
+				1FB187BA25015F8500F000E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanDiffableCollectionView;
+			productName = CleanDiffableCollectionView;
+			productReference = 1FB187BC25015F8500F000E1 /* CleanDiffableCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FB187D125015F8900F000E1 /* CleanDiffableCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB187E925015F8900F000E1 /* Build configuration list for PBXNativeTarget "CleanDiffableCollectionViewTests" */;
+			buildPhases = (
+				1FB187CE25015F8900F000E1 /* Sources */,
+				1FB187CF25015F8900F000E1 /* Frameworks */,
+				1FB187D025015F8900F000E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB187D425015F8900F000E1 /* PBXTargetDependency */,
+			);
+			name = CleanDiffableCollectionViewTests;
+			productName = CleanDiffableCollectionViewTests;
+			productReference = 1FB187D225015F8900F000E1 /* CleanDiffableCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FB187DC25015F8900F000E1 /* CleanDiffableCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB187EC25015F8900F000E1 /* Build configuration list for PBXNativeTarget "CleanDiffableCollectionViewUITests" */;
+			buildPhases = (
+				1FB187D925015F8900F000E1 /* Sources */,
+				1FB187DA25015F8900F000E1 /* Frameworks */,
+				1FB187DB25015F8900F000E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB187DF25015F8900F000E1 /* PBXTargetDependency */,
+			);
+			name = CleanDiffableCollectionViewUITests;
+			productName = CleanDiffableCollectionViewUITests;
+			productReference = 1FB187DD25015F8900F000E1 /* CleanDiffableCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FB187B425015F8500F000E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "james rochabrun";
+				TargetAttributes = {
+					1FB187BB25015F8500F000E1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1FB187D125015F8900F000E1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1FB187BB25015F8500F000E1;
+					};
+					1FB187DC25015F8900F000E1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1FB187BB25015F8500F000E1;
+					};
+				};
+			};
+			buildConfigurationList = 1FB187B725015F8500F000E1 /* Build configuration list for PBXProject "CleanDiffableCollectionView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FB187B325015F8500F000E1;
+			productRefGroup = 1FB187BD25015F8500F000E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FB187BB25015F8500F000E1 /* CleanDiffableCollectionView */,
+				1FB187D125015F8900F000E1 /* CleanDiffableCollectionViewTests */,
+				1FB187DC25015F8900F000E1 /* CleanDiffableCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB187BA25015F8500F000E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB1881425016B6C00F000E1 /* TOMCouponCollectionViewFooter.xib in Resources */,
+				1FB1881A2501706400F000E1 /* TOMCollectionViewContainerTableViewCell.xib in Resources */,
+				1FB18801250160CE00F000E1 /* TOMContactCardActionableView.xib in Resources */,
+				1FB187CC25015F8900F000E1 /* LaunchScreen.storyboard in Resources */,
+				1FB1880A250162CE00F000E1 /* ProductCollectionViewCell.xib in Resources */,
+				1FB187C925015F8900F000E1 /* Assets.xcassets in Resources */,
+				1FB18803250160ED00F000E1 /* TOMCouponBrandTitleHeaderView.xib in Resources */,
+				1FB187C725015F8500F000E1 /* Main.storyboard in Resources */,
+				1FB1881C2501724000F000E1 /* TOMDiffableCollectionView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB187D025015F8900F000E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB187DB25015F8900F000E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB187B825015F8500F000E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB1882125017B4200F000E1 /* UIStoryboard.swift in Sources */,
+				1FB1881625016E2400F000E1 /* TOMCollectionViewContainerTableViewCell.swift in Sources */,
+				1FB187F625015FB400F000E1 /* CompositionalLayout.swift in Sources */,
+				1FB187F425015FAC00F000E1 /* GenericCollectionViewCell.swift in Sources */,
+				1FB187FF250160A300F000E1 /* TOMContactCardActionableView.swift in Sources */,
+				1FB188062501617500F000E1 /* TOMMultiColumnCouponViewModel.swift in Sources */,
+				1FB1881F25017A1E00F000E1 /* SplitViewController.swift in Sources */,
+				1FB1880C250164E400F000E1 /* CollectionReusable.swift in Sources */,
+				1FB1881225016A2400F000E1 /* Layout.swift in Sources */,
+				1FB1880E2501696A00F000E1 /* TOMCouponBrandTitleHeaderView.swift in Sources */,
+				1FB187FB2501606700F000E1 /* TOMDiffableCollectionView.swift in Sources */,
+				1FB18810250169A100F000E1 /* TOMCouponCollectionViewFooter.swift in Sources */,
+				1FB187FD2501608300F000E1 /* CollectionReusableView.swift in Sources */,
+				1FB188082501624C00F000E1 /* ProductCollectionViewCell.swift in Sources */,
+				1FB187C425015F8500F000E1 /* ViewController.swift in Sources */,
+				1FB187F225015FA000F000E1 /* GenericTableViewCell.swift in Sources */,
+				1FB187F025015F9500F000E1 /* BaseXibView.swift in Sources */,
+				1FB187C025015F8500F000E1 /* AppDelegate.swift in Sources */,
+				1FB187C225015F8500F000E1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB187CE25015F8900F000E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB187D725015F8900F000E1 /* CleanDiffableCollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB187D925015F8900F000E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB187E225015F8900F000E1 /* CleanDiffableCollectionViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB187D425015F8900F000E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB187BB25015F8500F000E1 /* CleanDiffableCollectionView */;
+			targetProxy = 1FB187D325015F8900F000E1 /* PBXContainerItemProxy */;
+		};
+		1FB187DF25015F8900F000E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB187BB25015F8500F000E1 /* CleanDiffableCollectionView */;
+			targetProxy = 1FB187DE25015F8900F000E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FB187C525015F8500F000E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB187C625015F8500F000E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FB187CA25015F8900F000E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB187CB25015F8900F000E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FB187E425015F8900F000E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FB187E525015F8900F000E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FB187E725015F8900F000E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CleanDiffableCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jamesrochabrun.CleanDiffableCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FB187E825015F8900F000E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CleanDiffableCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jamesrochabrun.CleanDiffableCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FB187EA25015F8900F000E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CleanDiffableCollectionViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jamesrochabrun.CleanDiffableCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanDiffableCollectionView.app/CleanDiffableCollectionView";
+			};
+			name = Debug;
+		};
+		1FB187EB25015F8900F000E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CleanDiffableCollectionViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jamesrochabrun.CleanDiffableCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanDiffableCollectionView.app/CleanDiffableCollectionView";
+			};
+			name = Release;
+		};
+		1FB187ED25015F8900F000E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CleanDiffableCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jamesrochabrun.CleanDiffableCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CleanDiffableCollectionView;
+			};
+			name = Debug;
+		};
+		1FB187EE25015F8900F000E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CleanDiffableCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jamesrochabrun.CleanDiffableCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CleanDiffableCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FB187B725015F8500F000E1 /* Build configuration list for PBXProject "CleanDiffableCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB187E425015F8900F000E1 /* Debug */,
+				1FB187E525015F8900F000E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB187E625015F8900F000E1 /* Build configuration list for PBXNativeTarget "CleanDiffableCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB187E725015F8900F000E1 /* Debug */,
+				1FB187E825015F8900F000E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB187E925015F8900F000E1 /* Build configuration list for PBXNativeTarget "CleanDiffableCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB187EA25015F8900F000E1 /* Debug */,
+				1FB187EB25015F8900F000E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB187EC25015F8900F000E1 /* Build configuration list for PBXNativeTarget "CleanDiffableCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB187ED25015F8900F000E1 /* Debug */,
+				1FB187EE25015F8900F000E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FB187B425015F8500F000E1 /* Project object */;
+}
